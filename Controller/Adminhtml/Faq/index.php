@@ -33,6 +33,9 @@ class Index extends Action implements HttpGetActionInterface
     /** @return Page */
     public function execute(): Page
     {
-        return $this->pageFactory->create();
+        $page = $this->pageFactory->create();
+        $page->setActiveMenu('Biglidio_AnsweredQuestions::faq');
+        $page->getConfig()->getTitle()->prepend(__('FAQ\'s'));
+        return $page;
     }
 }
