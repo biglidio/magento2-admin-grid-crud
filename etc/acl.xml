@@ -4,7 +4,7 @@
         <resources>
             <resource id="Magento_Backend::admin">
                 <resource id="Magento_Backend::content">
-                    <resource id="Biglidio_AnsweredQuestions::answeredquestions" title="Answered Questions" translate="title" sortOrder="900">
+                    <resource id="Biglidio_AnsweredQuestions::answered_questions" title="Answered Questions" translate="title" sortOrder="900">
                         <resource id="Biglidio_AnsweredQuestions::faq" title="FAQs" translate="title">
                             <resource id="Biglidio_AnsweredQuestions::faq_save" title="Save FAQ" translate="title"/>
                             <resource id="Biglidio_AnsweredQuestions::faq_delete" title="Delete FAQ" translate="title"/>

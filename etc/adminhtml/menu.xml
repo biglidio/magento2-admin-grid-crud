@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add
+            id="Biglidio_AnsweredQuestions::answered_questions"
+            title="Answered Questions"
+            translate="title"
+            module="Biglidio_AnsweredQuestions"
+            resource="Biglidio_AnsweredQuestions::answered_questions"
+            parent="Magento_Backend::content"
+            sortOrder="900"
+        />
+        <add
+            id="Biglidio_AnsweredQuestions::faq"
+            title="FAQs"
+            translate="title"
+            module="Biglidio_AnsweredQuestions"
+            resource="Biglidio_AnsweredQuestions::faq"
+            parent="Biglidio_AnsweredQuestions::answered_questions"
+            action="answered-questions/faq"
+        />
+    </menu>
+</config>
