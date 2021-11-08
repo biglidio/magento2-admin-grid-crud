@@ -16,7 +16,7 @@ class Edit extends Action implements HttpGetActionInterface
     protected $pageFactory;
 
     /**
-     * Index constructor
+     * Edit constructor
      *
      * @param Context $context
      * @param PageFactory $pageFactory
