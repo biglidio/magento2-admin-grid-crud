@@ -42,6 +42,7 @@
                 </item>
             </argument>
         </filters>
+        <filterSearch name="fulltext"/>
     </listingToolbar>
     <columns name="biglidio_answeredquestions_faq_columns">
         <settings>
