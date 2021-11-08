@@ -67,7 +67,7 @@
             <editorConfig>
                 <param name="clientConfig" xsi:type="array">
                     <item name="saveUrl" xsi:type="url" path="*/*/inlineEdit"/>
-                    <item name="validateBeforeSave" xsi:type="string">false</item>
+                    <item name="validateBeforeSave" xsi:type="boolean">false</item>
                 </param>
                 <param name="selectProvider" xsi:type="string">biglidio_answeredquestions_faq_listing.biglidio_answeredquestions_faq_listing.biglidio_answeredquestions_faq_columns.ids</param>
                 <param name="indexField" xsi:type="string">id</param>
