@@ -58,6 +58,12 @@ class Actions extends Column
                     ]),
                     'label' => __('Edit')
                 ],
+                'delete' => [
+                    'href' => $this->urlBuilder->getUrl('answeredquestions/faq/delete', [
+                        'id' => $item['id']
+                    ]),
+                    'label' => __('Delete')
+                ]
             ];
         }
 
