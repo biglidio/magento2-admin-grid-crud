@@ -1,6 +1,6 @@
 <?php
 
-namespace Biglidio\AnsweredQuestions\Model\Faq;
+namespace Biglidio\AnsweredQuestions\Model\ResourceModel\Faq;
 
 use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
 use Biglidio\AnsweredQuestions\Model\Faq as FaqModel;
